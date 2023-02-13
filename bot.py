@@ -1,1 +1,2 @@
-print ("error not found")
+def run():
+    print("aaaaaaaaaaaaaa")
