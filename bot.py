@@ -6,8 +6,8 @@ import subprocess
 s = socket.socket() # client computer can connect to others
 
 # ip address of server, can use own computer's private IP if doing on local
-host = str(input("Enter the IP address of the server that wants to control your computer:172.16.32.95"))
-port = int(input("Enter the port of the server that wants to control your computer (default input: 9999):9999"))
+host = str(input("Enter the IP address of the server that wants to control your computer:"))
+port = int(input("Enter the port of the server that wants to control your computer (default input: 9999):"))
 
 s.connect((host, port)) # binds client computer to server computer
 
