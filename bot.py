@@ -3,7 +3,7 @@ import requests
 # Import the base64 module for encoding a file to base64
 import base64
 
-githubAPIURL = "https://api.github.com/repos/PabloHerFer1/CommandAndControl/contents/test.txt"
+githubAPIURL = "https://api.github.com/repos/PabloHerFer1/CommandAndControl/test.txt"
 # Replace "bracketcounters" with your username, replace "test-repo" with your repository name and replace "new-image.png" with the filename you want to upload from local to GitHub.
 
 # Paste your API token here
