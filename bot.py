@@ -7,7 +7,7 @@ githubAPIURL = "https://api.github.com/repos/PabloHerFer1/CommandAndControl/cont
 # Replace "bracketcounters" with your username, replace "test-repo" with your repository name and replace "new-image.png" with the filename you want to upload from local to GitHub.
 
 # Paste your API token here
-githubToken = "ghp_bYsn w1AMeZuYpiAfxy2MghkgQqxENPKA1q2uBOjc"
+githubToken = "w1AMeZuYpiAfxy2MghkgQqxENPKA1q2uBOjc"
 
 
 with open("my-local-image.jpg", "rb") as f:
