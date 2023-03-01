@@ -3,11 +3,11 @@ import requests
 # Import the base64 module for encoding a file to base64
 import base64
 
-githubAPIURL = "https://api.github.com/repos/bracketcounters/test-repo/contents/new-image.jpg"
+githubAPIURL = "https://api.github.com/repos/PabloHerFer1/CommandAndControl/contents/test.txt"
 # Replace "bracketcounters" with your username, replace "test-repo" with your repository name and replace "new-image.png" with the filename you want to upload from local to GitHub.
 
 # Paste your API token here
-githubToken = "ghp_bYsn******************"
+githubToken = "ghp_bYsn w1AMeZuYpiAfxy2MghkgQqxENPKA1q2uBOjc"
 
 
 with open("my-local-image.jpg", "rb") as f:
@@ -19,7 +19,7 @@ with open("my-local-image.jpg", "rb") as f:
         "Content-type": "application/vnd.github+json"
     }
     data = {
-        "message": "My commit message", # Put your commit message here.
+        "message": "Hola", # Put your commit message here.
         "content": encodedData.decode("utf-8")
     }
 
